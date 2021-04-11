@@ -1,7 +1,7 @@
 # AED
-Curso: K1051
-Año: 2021
-Modalidad: Anual
-Legajo: 171.448-0
-Apellido: Park
-Nombre: Pablo
+- __Curso:__ K1051
+- __Año:__ 2021
+- __Modalidad:__ Anual
+- __Legajo:__ 171.448-0
+- __Apellido:__ Park
+- __Nombre:__ Pablo
