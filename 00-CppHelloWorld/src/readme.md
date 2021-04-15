@@ -10,7 +10,7 @@ Proceso: Procesar el string a mostrar por consola
 
 Salidas: String por consola
 
-Compilador: Se utilizó el compilador MinGW GCC (Eclipse 2.4.)
+Compilador: Se utilizó el compilador __MinGW GCC (Eclipse 2.4.)__
 
 Etapa #2: Diseño de la solución.
 
