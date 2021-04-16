@@ -16,4 +16,4 @@ Etapa #2: Diseño de la solución.
 
 Léxico del Algoritmo: cout << "Hello World!"<<endl;
 
-Representación visual ó textual del Algoritmo: "Hola Mundo!"
+Representación visual ó textual del Algoritmo: "Hello World!"
