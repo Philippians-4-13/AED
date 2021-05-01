@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cassert>
-#define NDBUG
 
 using namespace std;
 
