@@ -1,2 +1,5 @@
 # Executables
 *.exe
+
+# Files
+keys.json
