@@ -40,6 +40,5 @@ int main()
     assert(cA<cB);
     assert(cA+cB+cB+cA);
 
-    string sA = "Abecedario", sB ="012345";
-    string sC = sA + sB;
+    assert ("El string lo hice así.");
 }
