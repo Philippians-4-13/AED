@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cassert>
+#define NDEBUG
 
 using namespace std;
 
