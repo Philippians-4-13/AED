@@ -40,4 +40,5 @@ int main()
 
     //Tipo de dato: string
     assert (string("Se me") + string(" trabo la pc :(") == "Se me trabo la pc :(");
+    assert (string("Reprobado").length()>=6);
 }
