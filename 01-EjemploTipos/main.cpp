@@ -1,16 +1,16 @@
 #include <iostream>
 #include <cassert>
 #include <string>
-#define NDEBUG
+//#define NDEBUG
 
 using namespace std;
 
 int main() 
 {
     //Tipo de dato: bool
-    assert (true&&false||true == true);
-    assert (true||false == true);
-    assert (!false == true);
+    assert (true and false or true == true);
+    assert (true or false == true);
+    assert (not false == true);
     assert (true + false == true); 
     assert (true - false == true);
     assert (true < 2);
@@ -19,7 +19,7 @@ int main()
 	assert(7 + 3 == 10);
     assert(7 - 3 == 4);
     assert(7 * 3 == 21);
-    assert(7 / 3 == 7/3);
+    assert(7 / 3 == 2);
     assert(7 % 3 == 1);
 
     //Tipo de dato: int
@@ -40,5 +40,5 @@ int main()
 
     //Tipo de dato: string
     assert (string("Se me") + string(" trabo la pc :(") == "Se me trabo la pc :(");
-    assert (string("Reprobado").length()>=6);
+    assert (string("Reprobado").length()==9);
 }
