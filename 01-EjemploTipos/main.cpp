@@ -1,45 +1,43 @@
 #include <iostream>
 #include <cassert>
+#include <string>
 #define NDEBUG
 
 using namespace std;
 
 int main() 
 {
-    bool vTrue = true, vFalse = false;
-    assert (vTrue&&vFalse||vTrue);
-    assert (vTrue||vFalse);
-    assert (!vFalse);
-
-    vTrue = 1;
-    vFalse = 0;
-
-    assert (vTrue + vFalse); 
-    assert (vTrue - vFalse);
-    assert (vTrue = 1 < 2);
+    //Tipo de dato: bool
+    assert (true&&false||true == true);
+    assert (true||false == true);
+    assert (!false == true);
+    assert (true + false == true); 
+    assert (true - false == true);
+    assert (true < 2);
     
-    unsigned uA = 7, uB = 3; 
-	assert(uA + uB);
-    assert(uA - uB);
-    assert(uA * uB);
-    assert(uA / uB);
-    assert(uA % uB);
+    //Tipo de dato: unsigned
+	assert(7 + 3 == 10);
+    assert(7 - 3 == 4);
+    assert(7 * 3 == 21);
+    assert(7 / 3 == 7/3);
+    assert(7 % 3 == 1);
 
-    int iA = -24, iB = 12;
-	assert(iA + iB);
-    assert(iA - iB);
-    assert(iA * iB);
-    assert(iA / iB);
+    //Tipo de dato: int
+	assert(-24 + 12 == -12);
+    assert(-24 - 12 == -36);
+    assert(-24 * 12 == -288);
+    assert(-24 / 12 == -2);
 
-    double dA = 2.4, dB = 3.5;
-    assert(dA + dB);
-    assert(dA - dB);
-    assert(dA * dB);
-    assert(dA / dB);
+    //Tipo de dato: double
+    assert(2.4 + 3.5 == 5.9);
+    assert(2.4 - 3.5 == -1.1);
+    assert(2.4 * 3.5 == 8.4);
+    assert(2.4 / 3.5 == 2.4/3.5);
 
-    char cA ='A', cB ='B';
-    assert(cA<cB);
-    assert(cA+cB+cB+cA);
+    //Tipo de dato: char
+    assert('A'<'B');
+    assert('A'+'B'+'B'+'A');
 
-    assert ("El string lo hice así.");
+    //Tipo de dato: string
+    assert (string("Se me") + string(" trabo la pc :(") == "Se me trabo la pc :(");
 }
