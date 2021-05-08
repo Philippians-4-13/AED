@@ -1,3 +1,5 @@
 # Executables
 *.exe
-*.json
+
+# Files
+vs.code/*.json
