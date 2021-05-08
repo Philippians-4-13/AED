@@ -2,4 +2,5 @@
 *.exe
 
 # Files
-vs.code/*.json
+echo launch.json >> .gitignore
+gir rm --cached launch.json
