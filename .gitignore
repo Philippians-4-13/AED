@@ -1,6 +1,2 @@
 # Executables
 *.exe
-
-# Files
-echo launch.json >> .gitignore
-gir rm --cached launch.json
