@@ -32,11 +32,11 @@ int main()
     assert(2.4 + 3.5 == 5.9);
     assert(2.4 - 3.5 == -1.1);
     assert(2.4 * 3.5 == 8.4);
-    assert(2.4 / 3.5 == 2.4/3.5);
+    assert(2.4 / 3.5 >= 0.68);
 
     //Tipo de dato: char
     assert('A'<'B');
-    assert('A'+'B'+'B'+'A');
+    assert('C'-'B'==1);
 
     //Tipo de dato: string
     assert (string("Se me") + string(" trabo la pc :(") == "Se me trabo la pc :(");
