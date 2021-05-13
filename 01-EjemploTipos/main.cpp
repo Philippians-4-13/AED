@@ -16,11 +16,11 @@ int main()
     assert (true < 2);
     
     //Tipo de dato: unsigned
-	assert(7 + 3 == 10);
-    assert(7 - 3 == 4);
-    assert(7 * 3 == 21);
-    assert(7 / 3 == 2);
-    assert(7 % 3 == 1);
+	assert(7u + 3u == 10u);
+    assert(7u - 3u == 4u);
+    assert(7u * 3u == 21u);
+    assert(7u / 3u == 2u);
+    assert(7u % 3u == 1u);
 
     //Tipo de dato: int
 	assert(-24 + 12 == -12);
