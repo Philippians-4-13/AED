@@ -4,6 +4,7 @@
 //#define NDEBUG
 
 using namespace std;
+using namespace std::literals;
 
 int main() 
 {
@@ -11,9 +12,6 @@ int main()
     assert ((true and false) or true == true);
     assert (true or false == true);
     assert (not false == true);
-    assert (true + false == true); 
-    assert (true - false == true);
-    assert (true < 2);
     
     //Tipo de dato: unsigned
 	assert(7u + 3u == 10u);
