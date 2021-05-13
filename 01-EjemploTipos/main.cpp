@@ -39,7 +39,7 @@ int main()
     assert('C'-'B'==1);
 
     //Tipo de dato: string
-    assert (string("Se me") + string(" trabo la pc :(") == "Se me trabo la pc :(");
+    assert (string("Se me"s) + string(" trabo la pc :("s) == "Se me trabo la pc :("s);
     assert (string("Reprobado").length()==9);
     assert (string("Mejore la RAM, ahora debería funcionar mejor"s).length());
 }
