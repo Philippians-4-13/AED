@@ -8,7 +8,7 @@ using namespace std;
 int main() 
 {
     //Tipo de dato: bool
-    assert (true and false or true == true);
+    assert ((true and false) or true == true);
     assert (true or false == true);
     assert (not false == true);
     assert (true + false == true); 
@@ -29,10 +29,10 @@ int main()
     assert(-24 / 12 == -2);
 
     //Tipo de dato: double
-    assert(2.4 + 3.5 == 5.9);
-    assert(2.4 - 3.5 == -1.1);
-    assert(2.4 * 3.5 == 8.4);
-    assert(2.4 / 3.5 >= 0.68);
+    assert(2.4e-2 + 3.5 == 3.524);
+    assert(2.4e-2 - 3.5 == -3.476); 
+    assert(2.4e-2 * 3.5 == 0.084);
+    assert(2.4e-2 / 3.5 >= 0.0068);
 
     //Tipo de dato: char
     assert('A'<'B');
@@ -41,4 +41,5 @@ int main()
     //Tipo de dato: string
     assert (string("Se me") + string(" trabo la pc :(") == "Se me trabo la pc :(");
     assert (string("Reprobado").length()==9);
+    assert (string("Mejore la RAM, ahora debería funcionar mejor"s).length());
 }
