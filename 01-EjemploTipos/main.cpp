@@ -34,10 +34,10 @@ int main()
 
     //Tipo de dato: char
     assert('A'<'B');
-    assert('C'-'B'==1);
+    assert('C'- 1=='B');
 
     //Tipo de dato: string
     assert (string("Se me"s) + string(" trabo la pc :("s) == "Se me trabo la pc :("s);
-    assert (string("Reprobado").length()==9);
+    assert (string("Reprobado"s).length()==9);
     assert (string("Mejore la RAM, ahora debería funcionar mejor"s).length());
 }
