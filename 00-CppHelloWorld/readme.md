@@ -16,6 +16,6 @@ Compilador: Se utilizó el compilador __MinGW GCC (Eclipse 2.4.) & Visual Studio
 
 ## Etapa #2: Diseño de la solución.
 
-Léxico del Algoritmo: cout << "Hello World!"<<endl;
+Léxico del Algoritmo: cout <<"Hello World!"<<endl;
 
 Representación visual ó textual del Algoritmo: "Hello World!"
